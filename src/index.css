@@ -15,3 +15,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.PhoneInputCountry {
+  display: flex;
+}
+
+.PhoneInputCountrySelect {
+  max-width: 120px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(247, 240, 255);
+}
+
+.PhoneInputCountryIcon {
+  display: none;
+  
+}
+
+.PhoneInputCountrySelectArrow {
+  width: 0px;
+}
+
+.PhoneInputInput {
+  background-color: rgb(233 213 255);
+  border-radius: 5px;
+  padding-inline: 10px;
+  border: 3px solid rgb(192 132 252);
+  padding-block: 9px;
+}
